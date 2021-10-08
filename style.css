@@ -1,3 +1,8 @@
+/* Colors:
+   Yellow: #FFBE00
+   Navy: #192B37
+   */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,17 +11,15 @@
 
 /* ------ Temporary styles for structural html that need to be removed ------ */
 
-*{
-    padding:0.5rem;
+section {
     border: 2px solid rgb(220,220,220);
 }
 
 body {
-     border: none;
     font-family: 'Catamaran', sans-serif;
     color: #192B37;
     }
-html { border: none; }
+
 
 
 /* Image styles/classes */
@@ -37,6 +40,25 @@ min-height: 10rem;
     color: white; 
 }
 
-.text-left   ( text-align: left    )
-.text-center ( text-align: center; )
-.text-right  ( text-align: right   )
+.featured-text { color: #FFBE00; }
+
+.text-left   { text-align: left    }
+.text-center { text-align: center; }
+.text-right  { text-align: right   }
+
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+/* Header styles*/
+
+header {
+    background-image: url('/images/the-sleep-co-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 5.5rem;
+    line-height: 1;
+}
