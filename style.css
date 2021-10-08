@@ -11,7 +11,11 @@
     border: 2px solid rgb(220,220,220);
 }
 
-body { border: none; }
+body {
+     border: none;
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+    }
 html { border: none; }
 
 
@@ -33,3 +37,6 @@ min-height: 10rem;
     color: white; 
 }
 
+.text-left   ( text-align: left    )
+.text-center ( text-align: center; )
+.text-right  ( text-align: right   )
